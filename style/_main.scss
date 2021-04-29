@@ -1,0 +1,42 @@
+body{
+    margin: auto;
+}
+.container{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1050px;
+    width: 1830px;
+}
+img{
+    width: 853px; //853px
+    height: 500px;
+}
+
+.font1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oSans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.brown{
+    color: $thisBrown;
+}
+
+.yellow{
+    color: $thisYellow;
+}
+
+.orange{
+    color: $thisOrange;
+}
